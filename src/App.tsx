@@ -1,6 +1,7 @@
 import Hero from "./section/Hero/Hero";
 import styles from "./App.module.scss";
 import Projects from "./section/Projects/Projects";
+import Skills from "./section/Skills/Skills";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className={styles.main}>
         <Hero />
         <Projects />
+        <Skills />
       </div>
     </div>
   );
