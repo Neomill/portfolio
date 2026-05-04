@@ -4,3 +4,19 @@
   min-height: 250px;
   width: 100%;
 }
+
+.cardThumbnail {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  height: 170px;
+  width: 100%;
+  background-color: #e6e5e3;
+}
+
+.cardContent {
+  padding: 1rem;
+}
+
+.cardTitle {
+  margin-bottom: 0.5rem;
+}

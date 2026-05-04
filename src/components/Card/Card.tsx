@@ -8,10 +8,18 @@ interface ThumbnailProps {
 
 export const Thumbnail = ({ src, alt }: ThumbnailProps) => {
   return (
-    <div className={styles.cardthumbnail}>
+    <div className={styles.cardThumbnail}>
       <img src={src} alt={alt} />
     </div>
   );
+};
+
+interface ContentProps {
+  children: React.ReactNode;
+}
+
+export const Content = ({ children }: ContentProps) => {
+  return <p className={styles.cardContent}>{children}</p>;
 };
 
 interface TitleProps {
@@ -19,7 +27,7 @@ interface TitleProps {
 }
 
 export const Title = ({ children }: TitleProps) => {
-  return <h3 className={styles.cardtitle}>{children}</h3>;
+  return <h3 className={styles.cardTitle}>{children}</h3>;
 };
 
 interface DescriptionProps {
@@ -42,6 +50,7 @@ const Card = Object.assign(CardRoot, {
   Thumbnail,
   Title,
   Description,
+  Content,
 });
 
 export default Card;
