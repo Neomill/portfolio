@@ -21,3 +21,22 @@
   letter-spacing: 0.015em;
   margin: 1.5rem 0;
 }
+
+.btnContent {
+  width: 100%;
+  min-width: 120px;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.actionGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
