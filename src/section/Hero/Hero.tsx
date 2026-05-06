@@ -7,7 +7,9 @@ import styles from "./Hero.module.scss";
 const Hero = () => {
   return (
     <section className={styles.section}>
-      <h1 className={styles.name}>Neomill Marc Reas</h1>
+      <h1 className={styles.name}>
+        Neomill Marc <br className={styles.break} /> Reas
+      </h1>
       <h2 className={styles.subtitle}>Software Developer</h2>
 
       <img src={profile} alt="Profile" className={styles.profile} />

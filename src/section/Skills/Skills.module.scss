@@ -1,15 +1,17 @@
-.sectionTitle {
+.heading {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 28px;
-  margin-bottom: 32px;
   letter-spacing: 0.004rem;
 }
 
-.section {
+.root {
   margin: 4rem 0;
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
 }
 
-.skillTitle {
+.groupHeading {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 14px;
   margin-bottom: 16px;

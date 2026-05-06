@@ -7,19 +7,26 @@
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 40px;
   font-weight: 800;
+  line-height: 1.2;
 }
 
 .subtitle {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 24px;
-  font-weight: 400;
+  line-height: 1.4;
+  font-weight: 500;
+  color: #4d4d4d;
+  margin-top: 12px;
 }
 
 .description {
+  color: #4d4d4d;
+
   font-size: 1rem;
-  line-height: 25px;
+  line-height: 1.6;
   letter-spacing: 0.015em;
   margin: 1.5rem 0;
+  max-width: 60ch;
 }
 
 .btnContent {
@@ -39,4 +46,12 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+}
+
+.break {
+  display: none;
+
+  @media (max-width: 768px) {
+    // display: block;
+  }
 }

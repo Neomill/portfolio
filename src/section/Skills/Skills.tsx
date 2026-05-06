@@ -6,31 +6,80 @@ import styles from "./Skills.module.scss";
 
 const Skills = () => {
   return (
-    <section className={styles.section}>
-      <h2 className={styles.sectionTitle}>Skills</h2>
+    <section className={styles.root}>
+      <h2 className={styles.heading}>Skills</h2>
 
-      <div>
-        <h3 className={styles.skillTitle}>Frontend</h3>
-      </div>
-      <ul className={styles.skillList}>
-        <li>
-          <Chips>
-            <HTMLIcon /> HTML
-          </Chips>
-        </li>
-        <li>
-          <Chips>
-            <CSSIcon />
-            CSS
-          </Chips>
-        </li>
-        <li>
-          <Chips>
-            <JavascriptIcon />
-            Javascript
-          </Chips>
-        </li>
-      </ul>
+      <section className={styles.skillGroup}>
+        <h3 className={styles.groupHeading}>Frontend</h3>
+
+        <ul className={styles.skillList}>
+          <li>
+            <Chips>
+              <HTMLIcon /> HTML
+            </Chips>
+          </li>
+          <li>
+            <Chips>
+              <CSSIcon />
+              CSS
+            </Chips>
+          </li>
+          <li>
+            <Chips>
+              <JavascriptIcon />
+              Javascript
+            </Chips>
+          </li>
+        </ul>
+      </section>
+
+      <section className={styles.skillGroup}>
+        <h3 className={styles.groupHeading}>Frontend</h3>
+
+        <ul className={styles.skillList}>
+          <li>
+            <Chips>
+              <HTMLIcon /> HTML
+            </Chips>
+          </li>
+          <li>
+            <Chips>
+              <CSSIcon />
+              CSS
+            </Chips>
+          </li>
+          <li>
+            <Chips>
+              <JavascriptIcon />
+              Javascript
+            </Chips>
+          </li>
+        </ul>
+      </section>
+
+      <section className={styles.skillGroup}>
+        <h3 className={styles.groupHeading}>Frontend</h3>
+
+        <ul className={styles.skillList}>
+          <li>
+            <Chips>
+              <HTMLIcon /> HTML
+            </Chips>
+          </li>
+          <li>
+            <Chips>
+              <CSSIcon />
+              CSS
+            </Chips>
+          </li>
+          <li>
+            <Chips>
+              <JavascriptIcon />
+              Javascript
+            </Chips>
+          </li>
+        </ul>
+      </section>
     </section>
   );
 };
