@@ -1,4 +1,5 @@
 import Chips from "../../components/Chips/Chips";
+import Section from "../../components/Section/Section";
 import CSSIcon from "../../icons/CSSIcon";
 import HTMLIcon from "../../icons/HTMLIcon";
 import JavascriptIcon from "../../icons/JavascriptIcon";
@@ -6,7 +7,7 @@ import styles from "./Skills.module.scss";
 
 const Skills = () => {
   return (
-    <section className={styles.root}>
+    <Section className={styles.section}>
       <h2 className={styles.heading}>Skills</h2>
 
       <section className={styles.skillGroup}>
@@ -80,7 +81,7 @@ const Skills = () => {
           </li>
         </ul>
       </section>
-    </section>
+    </Section>
   );
 };
 

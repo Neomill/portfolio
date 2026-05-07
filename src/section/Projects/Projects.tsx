@@ -1,8 +1,9 @@
 import Card from "../../components/Card/Card";
+import Section from "../../components/Section/Section";
 import styles from "./Projects.module.scss";
 const Projects = () => {
   return (
-    <section className={styles.section}>
+    <Section>
       <h2 className={styles.sectionTitle}>Projects</h2>
 
       <div>
@@ -17,7 +18,7 @@ const Projects = () => {
           </Card.Content>
         </Card>
       </div>
-    </section>
+    </Section>
   );
 };
 

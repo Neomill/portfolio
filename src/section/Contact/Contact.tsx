@@ -4,9 +4,10 @@ import { Button } from "../../components/Button/Button";
 import LinkedinIcon from "../../icons/LinkedinIcon";
 import GithubIcon from "../../icons/GithubIcon";
 import ArrowIcon from "../../icons/ArrowIcon";
+import Section from "../../components/Section/Section";
 const Contact = () => {
   return (
-    <section className={styles.root}>
+    <Section className={styles.section}>
       <h2 className={styles.heading}>Contact Me</h2>
 
       <div className={styles.content}>
@@ -98,7 +99,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   );
 };
 
