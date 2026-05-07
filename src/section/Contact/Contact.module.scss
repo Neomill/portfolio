@@ -14,7 +14,11 @@
 
 .content {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 }
 
 .form,
@@ -84,6 +88,13 @@
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-top: 3rem;
+  padding-left: unset;
+
+  @media (min-width: 768px) {
+    margin-top: unset;
+    padding-left: 3rem;
+  }
 
   .label {
     font-weight: 500;
@@ -98,6 +109,7 @@
   .socials {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 1rem;
 
     a {
