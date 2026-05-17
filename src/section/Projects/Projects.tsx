@@ -1,22 +1,24 @@
 import Card from "../../components/Card/Card";
 import Section from "../../components/Section/Section";
 import styles from "./Projects.module.scss";
+import projects from "./data.json";
 const Projects = () => {
   return (
     <Section>
       <h2 className={styles.sectionTitle}>Projects</h2>
 
-      <div>
-        <Card>
-          <Card.Thumbnail src="/assets/project1.png" alt="Project 1" />
-          <Card.Content>
-            <Card.Title>Chicken Crossy Game</Card.Title>
-            <Card.Description>
-              This is a description of Project 1. It is a web application built
-              with React and Node.js.
-            </Card.Description>
-          </Card.Content>
-        </Card>
+      <div className={styles.projectContainer}>
+        {projects.map((project) => (
+          <Card key={project.id}>
+            <Card.Thumbnail src={project.thumbnail} alt={project.alt} />
+
+            <Card.Content>
+              <Card.Title>{project.title}</Card.Title>
+
+              <Card.Description>{project.description}</Card.Description>
+            </Card.Content>
+          </Card>
+        ))}
       </div>
     </Section>
   );

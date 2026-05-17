@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "Chicken Crossy Game",
+    "description": "A fun browser game with smooth controls, responsive gameplay, and arcade-style mechanics.",
+    "thumbnail": "./thumbnails/chicken-crossy-game.gif",
+    "alt": "Chicken Crossy Game"
+  },
+  {
+    "id": 2,
+    "title": "Plinko",
+    "description": "A modern Plinko game with interactive animations and a clean user experience.",
+    "thumbnail": "./thumbnails/plinko.gif",
+    "alt": "Plinko Game"
+  },
+  {
+    "id": 3,
+    "title": "Roulette",
+    "description": "An interactive Roulette game built with smooth betting flow and responsive design.",
+    "thumbnail": "/thumbnails/roulette.gif",
+    "alt": "Roulette Game"
+  },
+  {
+    "id": 4,
+    "title": "Puffer Fish Crash Game",
+    "description": "A crash-style game with real-time multipliers, animations, and smooth performance.",
+    "thumbnail": "./thumbnails/puffer-fish.gif",
+    "alt": "Puffer Fish Crash Game"
+  },
+  {
+    "id": 5,
+    "title": "Soccer 50/50 Game",
+    "description": "A quick prediction-style soccer game focused on fast gameplay and simple interactions.",
+    "thumbnail": "/thumbnails/soccer.gif",
+    "alt": "Soccer 50/50 Game"
+  },
+  {
+    "id": 6,
+    "title": "Blackjack",
+    "description": "A responsive Blackjack game with smooth card animations and real-time interactions.",
+    "thumbnail": "./thumbnails/blackjack.gif",
+    "alt": "Blackjack Game"
+  },
+  {
+    "id": 7,
+    "title": "RNG Dragon Tiger Card Game",
+    "description": "A real-time card game with responsive gameplay and smooth betting interactions.",
+    "thumbnail": "/thumbnails/dragon-tiger.gif",
+    "alt": "RNG Dragon Tiger Card Game"
+  }
+]
