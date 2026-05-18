@@ -21,10 +21,6 @@ import GraphQLIcon from "../../icons/GraphQLIcon";
 import AwsIcon from "../../icons/AwsIcon";
 import GitIcon from "../../icons/GitIcon";
 import FigmaIcon from "../../icons/FigmaIcon";
-import ViteIcon from "../../icons/ViteIcon";
-import GithubIcon from "../../icons/GithubIcon";
-import PostmanIcon from "../../icons/PostmanIcon";
-import RestApiIcon from "../../icons/RestApiIcon";
 
 const skillsData = [
   {
@@ -38,6 +34,8 @@ const skillsData = [
       { name: "Phaser", icon: PhaserIcon },
       { name: "Tailwind", icon: TailwindIcon },
       { name: "Material UI", icon: MaterialIcon },
+      { name: "Bootstrap", icon: BootstrapIcon },
+      { name: "JQuery", icon: JQueryIcon },
       { name: "Redux", icon: ReduxIcon },
       { name: "Jest", icon: JestIcon },
     ],
@@ -49,7 +47,6 @@ const skillsData = [
       { name: "Express.js", icon: ExpressJsIcon },
       { name: "MongoDB", icon: MongoDbIcon },
       { name: "GraphQL", icon: GraphQLIcon },
-      { name: "REST API", icon: RestApiIcon },
     ],
   },
   {
@@ -59,8 +56,6 @@ const skillsData = [
       { name: "Git", icon: GitIcon },
       { name: "Figma", icon: FigmaIcon },
       { name: "Vite", icon: ViteIcon },
-      { name: "Github", icon: GithubIcon },
-      { name: "Postman", icon: PostmanIcon },
     ],
   },
 ];
