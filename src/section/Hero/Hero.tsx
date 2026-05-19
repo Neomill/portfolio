@@ -1,4 +1,3 @@
-import profile from "../../assets/profile.png";
 import Button from "../../components/Button/Button";
 import Section from "../../components/Section/Section";
 import ArrowExternalLinkIcon from "../../icons/ArrowExternalLinkIcon";
@@ -18,45 +17,62 @@ const Hero = () => {
 
         {/* MOBILE IMAGE */}
         <img
-          src={profile}
+          src={"./profile.png"}
           alt="Profile"
           className={`${styles.profile} ${styles.mobileProfile}`}
         />
 
         <p className={styles.description}>
-          I’m a Fullstack Developer specializing in real-time web applications,
-          backend systems, and AWS cloud architecture.
+          I’m a full-stack developer who builds modern web applications and
+          interactive user experiences using React, Node.js, and AWS. I focus on
+          creating fast, responsive, and reliable applications with clean and
+          maintainable code.
         </p>
 
         <p className={styles.description}>
-          I build and deploy production-ready applications including web games,
-          admin systems, APIs, and websites (including WordPress-based
-          solutions).
+          I’ve worked on browser games, admin systems, APIs, and custom websites
+          from start to deployment. I enjoy building products that are simple to
+          use, visually clean, and designed to perform well across different
+          devices.
         </p>
 
         <div className={styles.actionGroup}>
-          <Button variant="secondary">
-            <span className={styles.btnContent}>
-              <FolderIcon />
-              View Resume
-              <ArrowExternalLinkIcon />
-            </span>
-          </Button>
+          <a
+            href="YOUR_GOOGLE_DRIVE_LINK"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+          >
+            <Button variant="secondary">
+              <span className={styles.btnContent}>
+                <FolderIcon />
+                View Resume
+                <ArrowExternalLinkIcon />
+              </span>
+            </Button>
+          </a>
 
-          <Button variant="secondary">
-            <span className={styles.btnContent}>
-              <FolderIcon />
-              Book a Call
-              <ArrowExternalLinkIcon />
-            </span>
-          </Button>
+          <a
+            href="https://calendly.com/rneomillmarc/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+          >
+            <Button variant="secondary">
+              <span className={styles.btnContent}>
+                <FolderIcon />
+                Book a Call
+                <ArrowExternalLinkIcon />
+              </span>
+            </Button>
+          </a>
         </div>
       </div>
 
       {/* DESKTOP IMAGE */}
       <div className={styles.imageWrapper}>
         <img
-          src={profile}
+          src={"./profile.png"}
           alt="Profile"
           className={`${styles.profile} ${styles.desktopProfile}`}
         />

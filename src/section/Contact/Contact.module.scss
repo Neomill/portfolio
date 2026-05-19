@@ -19,6 +19,18 @@
   @media (min-width: 768px) {
     flex-direction: row;
   }
+
+  .successWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 70%;
+
+    .successGif {
+      width: 100px;
+    }
+  }
 }
 
 .form,
