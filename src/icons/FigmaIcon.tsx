@@ -7,7 +7,7 @@ const FigmaIcon = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_2276_519)">
+      <g clipPath="url(#clip0_2276_519)">
         <path
           d="M8 24C10.208 24 12 22.208 12 20V16H8C5.792 16 4 17.792 4 20C4 22.208 5.792 24 8 24Z"
           fill="#0ACF83"

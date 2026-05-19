@@ -24,8 +24,8 @@ const ViteIcon = () => {
           y2="19.8472"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#41D1FF" />
-          <stop offset="1" stop-color="#BD34FE" />
+          <stop stopColor="#41D1FF" />
+          <stop offset="1" stopColor="#BD34FE" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_2276_538"
@@ -35,9 +35,9 @@ const ViteIcon = () => {
           y2="17.1148"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#FFEA83" />
-          <stop offset="0.0833" stop-color="#FFDD35" />
-          <stop offset="1" stop-color="#FFA800" />
+          <stop stopColor="#FFEA83" />
+          <stop offset="0.0833" stopColor="#FFDD35" />
+          <stop offset="1" stopColor="#FFA800" />
         </linearGradient>
       </defs>
     </svg>

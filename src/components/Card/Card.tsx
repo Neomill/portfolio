@@ -19,7 +19,7 @@ interface ContentProps {
 }
 
 export const Content = ({ children }: ContentProps) => {
-  return <p className={styles.cardContent}>{children}</p>;
+  return <div className={styles.cardContent}>{children}</div>;
 };
 
 interface TitleProps {
