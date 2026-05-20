@@ -17,7 +17,7 @@
     "id": 3,
     "title": "Roulette",
     "description": "Online Roulette game with dynamic betting logic, real-time game flow, and a responsive UI designed for smooth user interaction.",
-    "thumbnail": "/thumbnails/roulette.gif",
+    "thumbnail": "./thumbnails/roulette.gif",
     "alt": "Roulette Game"
   },
   {
@@ -31,7 +31,7 @@
     "id": 5,
     "title": "Soccer 50/50 Game",
     "description": "Prediction-based soccer game with interactive animations, backend-driven game logic, and a responsive betting interface optimized for smooth gameplay.",
-    "thumbnail": "/thumbnails/soccer.gif",
+    "thumbnail": "./thumbnails/soccer.gif",
     "alt": "Soccer 50/50 Game"
   },
   {
@@ -45,7 +45,7 @@
     "id": 7,
     "title": "RNG Dragon Tiger Card Game",
     "description": "Real-time Dragon Tiger card game featuring RNG-based gameplay, interactive betting mechanics, and a responsive user interface optimized for smooth play.",
-    "thumbnail": "/thumbnails/dragon-tiger.gif",
+    "thumbnail": "./thumbnails/dragon-tiger.gif",
     "alt": "RNG Dragon Tiger Card Game"
   }
 ]
