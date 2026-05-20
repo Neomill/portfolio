@@ -38,7 +38,7 @@ const Hero = () => {
 
         <div className={styles.actionGroup}>
           <a
-            href="YOUR_GOOGLE_DRIVE_LINK"
+            href="./resume-neomill-marc-reas.pdf"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: "none" }}
