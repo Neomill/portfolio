@@ -23,17 +23,18 @@ const Hero = () => {
         />
 
         <p className={styles.description}>
-          I’m a full-stack developer who builds modern web applications and
-          interactive user experiences using React, Node.js, and AWS. I focus on
-          creating fast, responsive, and reliable applications with clean and
-          maintainable code.
+          I'm a senior HTML5 game developer with experience building browser
+          games using PixiJS, Phaser.js, and TypeScript. I build fast, smooth,
+          and responsive games with clean, maintainable code, from gameplay
+          features to deployment.
         </p>
 
         <p className={styles.description}>
-          I’ve worked on browser games, admin systems, APIs, and custom websites
-          from start to deployment. I enjoy building products that are simple to
-          use, visually clean, and designed to perform well across different
-          devices.
+          I also work as a full-stack web developer using React, Node.js, and
+          AWS. I've built admin dashboards, APIs, custom websites, and game
+          portals that are reliable, scalable, and easy to use. I enjoy solving
+          technical problems and building products that people can use with
+          confidence.
         </p>
 
         <div className={styles.actionGroup}>

@@ -23,6 +23,7 @@ import ViteIcon from "../../icons/ViteIcon";
 import GithubIcon from "../../icons/GithubIcon";
 import PostmanIcon from "../../icons/PostmanIcon";
 import RestApiIcon from "../../icons/RestApiIcon";
+import PixiIcon from "../../icons/PixiIcon";
 
 const skillsData = [
   {
@@ -31,9 +32,10 @@ const skillsData = [
       { name: "HTML", icon: HTMLIcon },
       { name: "CSS", icon: CSSIcon },
       { name: "JavaScript", icon: JavascriptIcon },
-      { name: "ReactJs", icon: ReactJsIcon },
-      { name: "NextJs", icon: NextJsIcon },
+      { name: "React", icon: ReactJsIcon },
+      { name: "Next.js", icon: NextJsIcon },
       { name: "Phaser", icon: PhaserIcon },
+      { name: "PixiJS", icon: PixiIcon },
       { name: "Tailwind", icon: TailwindIcon },
       { name: "Material UI", icon: MaterialIcon },
       { name: "Redux", icon: ReduxIcon },
@@ -43,7 +45,7 @@ const skillsData = [
   {
     title: "Backend",
     skills: [
-      { name: "NodeJs", icon: NodeIcon },
+      { name: "Node.js", icon: NodeIcon },
       { name: "Express.js", icon: ExpressJsIcon },
       { name: "MongoDB", icon: MongoDbIcon },
       { name: "GraphQL", icon: GraphQLIcon },
